@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "Anirban Agents": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "F:\\Agentic AI\\agentic-ai-EAG\\Assignment-4 MCP",
+        "python",
+        "-c",
+        "from mcp_server import mcp; mcp.run(transport='stdio')"
+      ]
+    }
+  }
+}
