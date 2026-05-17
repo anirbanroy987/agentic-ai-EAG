@@ -1,0 +1,33 @@
+# ── Secrets — never commit real keys ────────────────────────────────
+.env
+**/.env
+# (.env.example is intentionally NOT ignored — it's a template)
+
+# ── Python ──────────────────────────────────────────────────────────
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+**/.venv/
+venv/
+.ipynb_checkpoints/
+
+# ── Local data / runtime logs ───────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Generated pipeline output ───────────────────────────────────────
+**/output/
+
+# ── OS / archive cruft ──────────────────────────────────────────────
+.DS_Store
+**/.DS_Store
+__MACOSX/
+*.zip
+*.tar.gz
+*.tgz
+
+# ── Tool-local state ────────────────────────────────────────────────
+.claude/settings.local.json

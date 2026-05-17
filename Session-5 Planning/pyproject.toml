@@ -1,0 +1,26 @@
+[project]
+name = "scheme-context"
+version = "0.1.0"
+description = "Multi-agent Indian government scheme advisor grounded in real-time macro data via the e-Sankhyiki MCP server"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.6",
+    "httpx>=0.27",
+    "beautifulsoup4>=4.12",
+    "python-dotenv>=1.0",
+    "rich>=13.7",
+    "fastmcp>=3.0",
+    "pandas>=2.2",
+    "rapidfuzz>=3.6",
+]
+
+[project.optional-dependencies]
+demo = ["streamlit>=1.40"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
