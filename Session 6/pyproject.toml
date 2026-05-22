@@ -1,0 +1,14 @@
+[project]
+name = "session-6"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "crawl4ai>=0.8.6",
+    "ddgs>=9.14.4",
+    "fastapi>=0.136.1",
+    "httpx>=0.28.1",
+    "mcp>=1.27.1",
+    "pydantic>=2.13.4",
+    "python-dotenv>=1.2.2",
+    "tavily-python>=0.7.24",
+]

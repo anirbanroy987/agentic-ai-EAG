@@ -1,0 +1,330 @@
+[
+  {
+    "id": "20a89812",
+    "kind": "tool_outcome",
+    "keywords": [
+      "2026",
+      "22",
+      "7616",
+      "activities",
+      "adjacent",
+      "admission",
+      "artifact",
+      "asakusa",
+      "ask",
+      "attach",
+      "attractions",
+      "authentic"
+    ],
+    "descriptor": "web_search({\"query\": \"family friendly activities Tokyo weekend May 22 2026\", \"max_results\": 5}) -> {\n  \"title\": \"Tokyo with Kids 2026: Complete Family Guide\",\n  \"url\": \"https://www.machupicchu.org/tokyo-with-kids-2026-complete-family-guide.htm\",\n  \"snippet\": ",
+    "value": {
+      "tool": "web_search",
+      "arguments": {
+        "query": "family friendly activities Tokyo weekend May 22 2026",
+        "max_results": 5
+      }
+    },
+    "artifact_id": "1",
+    "run_id": "8498ef9d",
+    "goal_id": "1",
+    "source": "tool",
+    "created_at": 1779419370.117937
+  },
+  {
+    "id": "43ba5397",
+    "kind": "tool_outcome",
+    "keywords": [
+      "02",
+      "05",
+      "07",
+      "10",
+      "11",
+      "11th",
+      "12",
+      "13",
+      "14",
+      "16",
+      "17",
+      "19"
+    ],
+    "descriptor": "web_search({\"query\": \"Tokyo weather May 23 2026 forecast\", \"max_results\": 5}) -> {\n  \"title\": \"Weather Tokyo in May 2026: Temperature & Climate\",\n  \"url\": \"https://en.climate-data.org/asia/japan/tokyo/tokyo-3292/t/may-5\",\n  \"snippet\": \"## Te",
+    "value": {
+      "tool": "web_search",
+      "arguments": {
+        "query": "Tokyo weather May 23 2026 forecast",
+        "max_results": 5
+      }
+    },
+    "artifact_id": "2",
+    "run_id": "8498ef9d",
+    "goal_id": "2",
+    "source": "tool",
+    "created_at": 1779419421.092242
+  },
+  {
+    "id": "713af274",
+    "kind": "tool_outcome",
+    "keywords": [
+      "10",
+      "12",
+      "17",
+      "2026",
+      "2027",
+      "22",
+      "226396",
+      "23",
+      "25",
+      "27",
+      "28",
+      "29"
+    ],
+    "descriptor": "web_search({\"query\": \"Tokyo May 23 2026 weather forecast\", \"max_results\": 5}) -> {\n  \"title\": \"Tokyo, Tokyo, Japan Monthly Weather | AccuWeather\",\n  \"url\": \"https://www.accuweather.com/en/jp/tokyo/226396/may-weather/226396\",\n  \"snippet\": \"\\\\",
+    "value": {
+      "tool": "web_search",
+      "arguments": {
+        "query": "Tokyo May 23 2026 weather forecast",
+        "max_results": 5
+      }
+    },
+    "artifact_id": "3",
+    "run_id": "8498ef9d",
+    "goal_id": "2",
+    "source": "tool",
+    "created_at": 1779419451.468532
+  },
+  {
+    "id": "5fac10ac",
+    "kind": "tool_outcome",
+    "keywords": [
+      "111",
+      "116",
+      "140",
+      "163",
+      "179",
+      "18",
+      "229",
+      "301",
+      "3292",
+      "41",
+      "42437",
+      "42562"
+    ],
+    "descriptor": "fetch_url({\"url\": \"https://en.climate-data.org/asia/japan/tokyo/tokyo-3292/t/may-5\"}) -> {\n  \"status\": 301,\n  \"content_type\": \"text/markdown\",\n  \"length_bytes\": 42562,\n  \"text\": \"##  [](https://en.climate-data.org/)\\n##  [](https://en.climate-data.o",
+    "value": {
+      "tool": "fetch_url",
+      "arguments": {
+        "url": "https://en.climate-data.org/asia/japan/tokyo/tokyo-3292/t/may-5"
+      }
+    },
+    "artifact_id": "4",
+    "run_id": "8498ef9d",
+    "goal_id": "3",
+    "source": "tool",
+    "created_at": 1779419542.216478
+  },
+  {
+    "id": "a2c4fa4f",
+    "kind": "tool_outcome",
+    "keywords": [
+      "02",
+      "05",
+      "07",
+      "10",
+      "11",
+      "11th",
+      "12",
+      "13",
+      "14",
+      "16",
+      "17",
+      "19"
+    ],
+    "descriptor": "web_search({\"query\": \"Tokyo weather May 23 2026 forecast\", \"max_results\": 5}) -> {\n  \"title\": \"Weather Tokyo in May 2026: Temperature & Climate\",\n  \"url\": \"https://en.climate-data.org/asia/japan/tokyo/tokyo-3292/t/may-5\",\n  \"snippet\": \"## Te",
+    "value": {
+      "tool": "web_search",
+      "arguments": {
+        "query": "Tokyo weather May 23 2026 forecast",
+        "max_results": 5
+      }
+    },
+    "artifact_id": "5",
+    "run_id": "8498ef9d",
+    "goal_id": "3",
+    "source": "tool",
+    "created_at": 1779419585.683821
+  },
+  {
+    "id": "bc89d174",
+    "kind": "tool_outcome",
+    "keywords": [
+      "12",
+      "16",
+      "18110",
+      "18194",
+      "200",
+      "226396",
+      "accuracy",
+      "accuweather",
+      "accuweathers",
+      "adc",
+      "advertising",
+      "afb"
+    ],
+    "descriptor": "fetch_url({\"url\": \"https://www.accuweather.com/en/jp/tokyo/226396/may-weather/226396\"}) -> {\n  \"status\": 200,\n  \"content_type\": \"text/markdown\",\n  \"length_bytes\": 18110,\n  \"text\": \"[ ](https://www.accuweather.com/pwa)\\n  * [ For Business ](https://afb",
+    "value": {
+      "tool": "fetch_url",
+      "arguments": {
+        "url": "https://www.accuweather.com/en/jp/tokyo/226396/may-weather/226396"
+      }
+    },
+    "artifact_id": "6",
+    "run_id": "8498ef9d",
+    "goal_id": "3",
+    "source": "tool",
+    "created_at": 1779419618.668647
+  },
+  {
+    "id": "8797253e",
+    "kind": "fact",
+    "keywords": [
+      "tokyo",
+      "weekend",
+      "weather",
+      "yoyogi",
+      "park",
+      "family"
+    ],
+    "descriptor": "Recommendation for Saturday in Tokyo: mild cloudy weather makes Yoyogi Park ideal for family outdoor activities.",
+    "value": {
+      "date": "2025-05-23",
+      "location": "Tokyo",
+      "weather": "breezy morning, cloudy, high 20\u00b0C low 14\u00b0C, no rain",
+      "recommendation": "Yoyogi Park",
+      "activity_type": "outdoor family",
+      "notes": "wide lawns, fountains, street performers, bicycle rentals, near Harajuku and Meiji Shrine"
+    },
+    "artifact_id": null,
+    "run_id": "8498ef9d",
+    "goal_id": null,
+    "source": "run_summary",
+    "created_at": 1779419686.217549
+  },
+  {
+    "id": "a59a450d",
+    "kind": "fact",
+    "keywords": [
+      "mom",
+      "birthday",
+      "may",
+      "15",
+      "2026",
+      "reminder"
+    ],
+    "descriptor": "User's mother\u2019s birthday is May 15, 2026, and a reminder has been set for that date.",
+    "value": {
+      "person": "mom",
+      "relation": "mother",
+      "date": "2026-05-15",
+      "event": "birthday",
+      "reminder_set": true
+    },
+    "artifact_id": null,
+    "run_id": "dfdfc688",
+    "goal_id": null,
+    "source": "run_summary",
+    "created_at": 1779419890.208322
+  },
+  {
+    "id": "2ecf4129",
+    "kind": "tool_outcome",
+    "keywords": [
+      "10138",
+      "always",
+      "artifact",
+      "ask",
+      "async",
+      "asyncio",
+      "attach",
+      "avoid",
+      "best",
+      "better",
+      "but",
+      "chars"
+    ],
+    "descriptor": "web_search({\"max_results\": 5, \"query\": \"Python asyncio best practices\"}) -> {\n  \"title\": \"Asyncio Best Practices and Common Pitfalls\",\n  \"url\": \"https://www.shanechang.com/p/python-asyncio-best-practices-pitfalls\",\n  \"snippet\": \"Feature",
+    "value": {
+      "tool": "web_search",
+      "arguments": {
+        "max_results": 5,
+        "query": "Python asyncio best practices"
+      }
+    },
+    "artifact_id": "1",
+    "run_id": "28733567",
+    "goal_id": "g1",
+    "source": "tool",
+    "created_at": 1779420613.622185
+  },
+  {
+    "id": "72ce8261",
+    "kind": "tool_outcome",
+    "keywords": [
+      "10138",
+      "always",
+      "artifact",
+      "ask",
+      "async",
+      "asyncio",
+      "attach",
+      "avoid",
+      "best",
+      "better",
+      "but",
+      "chars"
+    ],
+    "descriptor": "web_search({\"query\": \"Python asyncio best practices\", \"max_results\": 5}) -> {\n  \"title\": \"Asyncio Best Practices and Common Pitfalls\",\n  \"url\": \"https://www.shanechang.com/p/python-asyncio-best-practices-pitfalls\",\n  \"snippet\": \"Feature",
+    "value": {
+      "tool": "web_search",
+      "arguments": {
+        "query": "Python asyncio best practices",
+        "max_results": 5
+      }
+    },
+    "artifact_id": "2",
+    "run_id": "28733567",
+    "goal_id": "g1",
+    "source": "tool",
+    "created_at": 1779420656.603031
+  },
+  {
+    "id": "97f541af",
+    "kind": "tool_outcome",
+    "keywords": [
+      "10138",
+      "always",
+      "artifact",
+      "ask",
+      "async",
+      "asyncio",
+      "attach",
+      "avoid",
+      "best",
+      "better",
+      "but",
+      "chars"
+    ],
+    "descriptor": "web_search({\"max_results\": 5, \"query\": \"Python asyncio best practices\"}) -> {\n  \"title\": \"Asyncio Best Practices and Common Pitfalls\",\n  \"url\": \"https://www.shanechang.com/p/python-asyncio-best-practices-pitfalls\",\n  \"snippet\": \"Feature",
+    "value": {
+      "tool": "web_search",
+      "arguments": {
+        "max_results": 5,
+        "query": "Python asyncio best practices"
+      }
+    },
+    "artifact_id": "3",
+    "run_id": "28733567",
+    "goal_id": "g1",
+    "source": "tool",
+    "created_at": 1779420700.741104
+  }
+]
