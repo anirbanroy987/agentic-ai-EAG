@@ -1,0 +1,8 @@
+{
+  "id": "art:7f4a7908e639bb09",
+  "content_type": "text/plain",
+  "size_bytes": 5065,
+  "source": "mcp:list_dir",
+  "descriptor": "list_dir({\"path\": \"finance/\"}) → 5065 bytes",
+  "created_at": "2026-05-28T13:10:13.009707"
+}

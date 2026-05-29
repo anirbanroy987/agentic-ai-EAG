@@ -1,0 +1,50 @@
+# Personal-Finance RAG corpus — source URLs (India)
+# One URL per line. Blank lines and lines starting with '#' are ignored.
+# Category/landing pages are marked; open them and swap in a concrete
+# article URL if you want a single-article page instead of a listing.
+# Generated from Finance_RAG_Corpus_Sources.md.
+
+# ── TIER 1 — Regulator / official ───────────────────────────────────────────
+https://investor.sebi.gov.in/
+https://investor.sebi.gov.in/pdf/downloadable-documents/Financial%20Education%20Booklet%20-%20English.pdf
+https://investor.sebi.gov.in/fem-workshop-material.html
+https://www.rbi.org.in/financialeducation/
+https://www.amfiindia.com/
+https://ncfe.org.in/
+https://www.incometax.gov.in/
+https://investor.sebi.gov.in/pdf/policy-documents/FinalNSFE.pdf
+
+# ── TIER 2 — Trusted Indian explainer blogs ─────────────────────────────────
+https://www.basunivesh.com/all-tax-deductions-old-vs-new-regime-full-list-fy-2026-27/
+https://www.basunivesh.com/opted-new-tax-regime-should-i-stop-investing-in-ppf-ssy-and-nps/
+https://www.basunivesh.com/
+https://www.jagoinvestor.com/term-insurance
+https://www.jagoinvestor.com/2012/03/switch-new-term-plan.html
+https://www.jagoinvestor.com/2008/06/life-insurance-revisited-one-of-my-good.html
+https://www.jagoinvestor.com/
+https://freefincal.com/deciding-on-asset-allocation-for-a-financial-goal/
+https://freefincal.com/how-much-equity-should-i-invest-in-for-a-long-term-goal/
+https://freefincal.com/can-handle-entire-wealth-becomes-emergency-fund/
+https://freefincal.com/category/index-investing/
+https://freefincal.com/
+https://arthgyaan.com/calculators/home-loan-prepayment-vs-investment-calculator
+https://arthgyaan.com/blog/category/behaviour
+https://arthgyaan.com/blog/category/budgeting
+https://arthgyaan.com/blog/category/fire
+https://arthgyaan.com/blog/category/asset-allocation
+https://www.relakhs.com/
+https://bemoneyaware.com/insurance-investment/
+
+# ── TIER 3 — Concept-rich / paraphrasable (semantic-recall demo) ─────────────
+https://www.investopedia.com/terms/c/compoundinterest.asp
+https://www.investopedia.com/terms/d/diversification.asp
+https://www.investopedia.com/terms/r/risktolerance.asp
+https://www.investopedia.com/terms/d/dollarcostaveraging.asp
+https://www.investopedia.com/terms/a/assetallocation.asp
+https://designu.substack.com/p/money-mistakes
+https://www.acg.aaa.com/connect/blogs/4c/money/fire-movement-financial-independence-early-retirement
+https://www.fundulator.in/blog/epf-vs-ppf-vs-nps-guide
+https://www.goodreturns.in/personal-finance/nps-vs-epf-vs-ppf-which-retirement-savings-scheme-should-you-choose-in-2026-1509871.html
+https://www.sc.com/in/investment/wealthinsights/sip-vs-lumpsum/
+https://easyhomefinance.in/knowledge-hub/emergency-fund-vs-home-loan-prepayment-what-to-prioritize/
+https://www.ujjivansfb.bank.in/banking-blogs/personal-finance/loan-prepayment-vs-investing-decision

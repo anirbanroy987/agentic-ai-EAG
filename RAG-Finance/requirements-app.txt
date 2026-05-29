@@ -1,0 +1,14 @@
+# Extra deps for the RAG-Finance add-ons (scraper + Streamlit viewer).
+#
+# NOTE: these are now also declared in pyproject.toml, so the canonical install
+# is simply:
+#     uv sync
+# That keeps faiss-cpu + the agent deps + these add-ons consistent in one venv.
+# This file is kept for non-uv setups:
+#     pip install -r requirements-app.txt
+#
+# Version floors match what `uv sync` resolved; httpx comes from the agent deps.
+
+streamlit>=1.40
+trafilatura>=1.12
+pypdf>=5.0
