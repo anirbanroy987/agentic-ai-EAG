@@ -1,0 +1,30 @@
+# Secrets — NEVER commit
+.env
+.env.local
+
+# Local runtime state — regenerated on each run
+code/state/sessions/*/
+!code/state/sessions/.gitkeep
+# FAISS index + Memory store — rebuild locally via `uv run python index_all.py`.
+# memory.json may also contain personal query traces (income, EMI, etc.).
+code/state/index.faiss
+code/state/index_ids.json
+code/state/memory.json
+code/state/artifacts/
+code/sandbox/*.txt
+code/.venv/
+code/usage.json
+gateway/.venv/
+gateway/*.db
+gateway/usage.json
+
+# Build / cache artifacts
+**/__pycache__/
+**/*.pyc
+**/uv.lock
+**/.pytest_cache/
+
+# Editors
+.vscode/
+.idea/
+.DS_Store

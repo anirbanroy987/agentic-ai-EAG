@@ -1,0 +1,26 @@
+# Streamlit theme — sets the FRAMEWORK-level colors for native widgets
+# (textarea, selectbox, checkbox, dropdowns, code blocks). Without this,
+# Streamlit ships its default theme and our injected CSS has to fight
+# its widget-internal selectors to make text visible — a losing game
+# because BaseWeb sets color on the inner text node, not the wrapper.
+#
+# Values mirror DARK palette in _ui/styles.py so the custom cards and
+# the framework widgets render with a consistent palette.
+
+[theme]
+base = "dark"
+primaryColor = "#818cf8"             # --accent
+backgroundColor = "#09090b"          # --bg
+secondaryBackgroundColor = "#18181b" # --bg-elev
+textColor = "#fafafa"                # --text
+font = "sans serif"
+
+[server]
+# Prevent Streamlit's file-watcher from triggering a full reconnect on
+# every save while editing the dashboard — keeps the streaming session
+# alive across edits.
+runOnSave = false
+headless = true
+
+[browser]
+gatherUsageStats = false
