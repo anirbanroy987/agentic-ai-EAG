@@ -1,0 +1,11 @@
+{
+  "arguments": {
+    "pid": 17748,
+    "window_id": 2688066
+  },
+  "result_summary": "✅ bring_to_front: pid 17748 hwnd 0x290442 is now foreground (was 0xb00c4).",
+  "t_ms_from_session_start": 1871,
+  "t_start_ms_from_session_start": 1860,
+  "timestamp": "1782059773.692",
+  "tool": "bring_to_front"
+}

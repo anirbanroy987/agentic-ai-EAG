@@ -1,0 +1,13 @@
+{
+  "arguments": {
+    "additional_arguments": [
+      "C:\\Users\\HP\\hello_world.txt"
+    ],
+    "name": "Code"
+  },
+  "result_summary": "✅ Launched Code (pid 21684) in background.\n\nWindows:\n- \"C:\\WINDOWS\\system32\\cmd.exe\" [window_id: 722852]\n→ Call get_window_state(pid: 21684, window_id) to inspect.",
+  "t_ms_from_session_start": 780,
+  "t_start_ms_from_session_start": 281,
+  "timestamp": "1782059609.868",
+  "tool": "launch_app"
+}

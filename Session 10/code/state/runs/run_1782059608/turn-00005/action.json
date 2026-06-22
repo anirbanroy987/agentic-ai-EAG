@@ -1,0 +1,13 @@
+{
+  "arguments": {
+    "dispatch": "auto",
+    "pid": 15552,
+    "text": "Hello World",
+    "window_id": 198064
+  },
+  "result_summary": "✅ Typed 11 char(s) on pid 15552 via PostMessage (30ms delay).",
+  "t_ms_from_session_start": 5700,
+  "t_start_ms_from_session_start": 5648,
+  "timestamp": "1782059614.789",
+  "tool": "type_text"
+}

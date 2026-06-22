@@ -185,14 +185,17 @@ stale-window guards in `vision.py`._
 
 ## Recorded `trajectory_dir`s (the submitted evidence)
 
-| trajectory_dir | task | path | turns |
-|---|---|---:|---:|
-| `code/state/runs/run_1782059771` | Calculator 42×18=756 (L2a) | deterministic | 6 |
-| `code/state/runs/run_1782059608` | VS Code → hello_world.txt (Electron) | page | 11 |
-| `code/state/runs/run_1782057892` | Paint single stroke (L3 vision) | vision | 2 |
+| trajectory_dir | task | path | turns | recording |
+|---|---|---:|---:|---|
+| `code/state/runs/run_1782059771` | Calculator 42×18=756 (L2a) | deterministic | 6 | [recording.html](code/state/runs/run_1782059771/recording.html) |
+| `code/state/runs/run_1782059608` | VS Code → hello_world.txt (Electron) | page | 11 | [recording.html](code/state/runs/run_1782059608/recording.html) |
+| `code/state/runs/run_1782057892` | Paint single stroke (L3 vision) | vision | 2 | [recording.html](code/state/runs/run_1782057892/recording.html) |
 
 Each dir contains `session.json`, `cursor.jsonl`, and per-turn `screenshot.png` /
-`action.json`; replay via cua-driver `replay_trajectory`.
+`action.json`; replay via cua-driver `replay_trajectory`. Each also has a
+self-contained **`recording.html`** — the full driver-call timeline with every
+screenshot embedded (base64), openable in any browser with no gateway/daemon
+needed. Regenerate with `uv run python make_run_html.py`.
 
 ---
 

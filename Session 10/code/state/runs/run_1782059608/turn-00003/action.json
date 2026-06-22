@@ -1,0 +1,15 @@
+{
+  "arguments": {
+    "keys": [
+      "ctrl",
+      "1"
+    ],
+    "pid": 15552,
+    "window_id": 198064
+  },
+  "result_summary": "✅ Pressed ctrl+1 on pid 15552 (background; cloaked focus if needed).",
+  "t_ms_from_session_start": 4362,
+  "t_start_ms_from_session_start": 4312,
+  "timestamp": "1782059613.451",
+  "tool": "hotkey"
+}

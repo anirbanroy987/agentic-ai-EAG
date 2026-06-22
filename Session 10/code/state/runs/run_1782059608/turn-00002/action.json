@@ -1,0 +1,11 @@
+{
+  "arguments": {
+    "pid": 15552,
+    "window_id": 198064
+  },
+  "result_summary": "✅ bring_to_front: pid 15552 hwnd 0x305b0 is now foreground (was 0x305b0).",
+  "t_ms_from_session_start": 3434,
+  "t_start_ms_from_session_start": 3431,
+  "timestamp": "1782059612.523",
+  "tool": "bring_to_front"
+}

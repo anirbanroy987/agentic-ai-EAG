@@ -1,0 +1,15 @@
+{
+  "arguments": {
+    "from_x": 619,
+    "from_y": 486,
+    "pid": 1372,
+    "to_x": 796,
+    "to_y": 486,
+    "window_id": 3606280
+  },
+  "result_summary": "✅ Posted drag to pid 1372 from window-pixel (619, 486) → (796, 486), screen (620, 487) → (797, 487) in 500ms / 20 steps.",
+  "t_ms_from_session_start": 7530,
+  "t_start_ms_from_session_start": 6986,
+  "timestamp": "1782057899.944",
+  "tool": "drag"
+}
