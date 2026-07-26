@@ -1,0 +1,4 @@
+[submodule "Session 12"]
+	path = Session 12
+	url = https://github.com/anirbanroy987/glc_v2.git
+	branch = part1-harden
