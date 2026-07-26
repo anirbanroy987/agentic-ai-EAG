@@ -31,3 +31,7 @@ __MACOSX/
 
 # ── Tool-local state ────────────────────────────────────────────────
 .claude/settings.local.json
+
+# ── GLC runtime install state (never commit — contains secrets) ─────
+**/.glc/
+**/install_token
